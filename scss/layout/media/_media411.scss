@@ -1,4 +1,4 @@
-@media (max-width: 425px){
+@media (max-width: 411px){
     header{
         background-color:map-get($color, color1);
         width: 100%;
@@ -80,7 +80,7 @@
     .titulo1{
         color: map-get($color, color2);
         font-size: 32px;
-        padding-left: 75px;
+        padding-left:90px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         
     }
@@ -99,7 +99,7 @@
         height: auto; 
         position: absolute;
         left: 35%;
-        top: 130%;
+        top: 125%;
         z-index: 2; 
     }
     .seccion-con-imagen2{
@@ -130,11 +130,11 @@
     }
     
     .nintendo{
-        width: 410px; /* Ajusta el ancho de tu logo según tus necesidades */
+        width: 390px; /* Ajusta el ancho de tu logo según tus necesidades */
         height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
         position: absolute;
         left: 8px;
-       top: 190%;
+       top: 180%;
         z-index: 0; /* Asegura que el logo esté superpuesto sobre el fondo */
     }
    
@@ -420,6 +420,38 @@
         }
     }
     
+    .formulario {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 2%;
+        width: 300px;
+        margin: 5%;
+        h2{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+            
+          }
+      }
+    
+    .formulario label, .formulario input {
+    display: flex;
+    margin-bottom: 10px;
+        
+             }
+    
+    .formulario button {
+    background-color: black;
+    color: white;
+    padding: 5%;
+    margin-top: 10%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    
     
     .datosmios p{
         font-size: 20px;
@@ -433,8 +465,8 @@
         width: 320px; 
         height: auto; 
         position: absolute;
-        right: 14%;
-        top: 155%;
+        right: 10%;
+        top: 150%;
         padding-top: 140px;
         z-index: 2;
     }
@@ -576,7 +608,7 @@
     .Logofooter{
         width: 320px;
         height: auto;
-        left: 5%;
+        left: 2%;
         position: absolute;
         padding-top: 10px;
     
